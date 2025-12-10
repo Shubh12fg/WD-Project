@@ -1,0 +1,157 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:"Segoe UI", Arial, sans-serif;
+    background:#fffaf5;
+    overflow-x:hidden;
+}
+
+/* NAVBAR */
+.navbar{
+    background:linear-gradient(90deg,#e58f65,#d4a373);
+    padding:18px 36px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    width:34px;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:22px;
+    margin:0;
+    padding:0;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-weight:500;
+}
+
+/* HERO */
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:#fff1e6;
+}
+
+.hero h1{
+    font-size:50px;
+}
+
+.hero p{
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+.btn{
+    background:#e58f65;
+    color:white;
+    padding:12px 32px;
+    border-radius:30px;
+    text-decoration:none;
+    display:inline-block;
+    margin-top:20px;
+}
+
+/* SECTIONS */
+.section{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.about-list{
+    max-width:400px;
+    margin:20px auto;
+    text-align:left;
+}
+
+/* CARDS */
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+    padding:60px 40px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 26px rgba(0,0,0,0.08);
+}
+
+/* GALLERY */
+.gallery{
+    padding:60px 40px;
+    text-align:center;
+}
+
+.images{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.images img{
+    width:100%;
+    border-radius:15px;
+}
+
+/* TABLE */
+table{
+    width:100%;
+    max-width:900px;
+    margin:auto;
+    border-collapse:collapse;
+}
+
+th, td{
+    border:1px solid #333;
+    padding:12px;
+}
+
+/* CONTACT */
+.contact{
+    background:#fff1e6;
+    padding:60px 20px;
+    text-align:center;
+}
+
+form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, select, textarea{
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:#e58f65;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:30px;
+}
+
+/* FOOTER */
+.footer{
+    background:#e58f65;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
